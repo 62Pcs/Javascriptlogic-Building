@@ -1,0 +1,14 @@
+let mystring = "Hello";
+let mynumber = 8273416540;
+let myboolean = false;
+let myundefind = undefined;
+let mymynull = null;
+let mybigInt = 123456789012345678901234567890n;
+let mysymbol = Symbol("id");
+console.log(typeof mystring);
+console.log(typeof mynumber);
+console.log(typeof myboolean);
+console.log(typeof myundefind);
+console.log(typeof mymynull);
+console.log(typeof mybigInt);
+console.log(typeof mysymbol);
