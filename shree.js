@@ -839,11 +839,11 @@ const { use, cloneElement } = require("react");
 // Check if **at least one number is odd** in the array.
 // कम से कम एक भी number odd है क्या?
 
-let numbers = [2, 4, 6]; // 👉 Expected Output: false
-let numbers2 = [2, 3, 6]; // 👉 Expected Output: true
+// let numbers = [2, 4, 6]; // 👉 Expected Output: false
+// let numbers2 = [2, 3, 6]; // 👉 Expected Output: true
 
-// ✍️ Try your code using .some()
-let hasadd = numbers.some((num) => num % 2 !== 0);
-console.log("has at least one odd numbers?", hasadd);
-let hasodd2 = numbers2.some((num) => num % 2 !== 0);
-console.log("has at least one odd numbers?", hasodd2);
+// // ✍️ Try your code using .some()
+// let hasadd = numbers.some((num) => num % 2 !== 0);
+// console.log("has at least one odd numbers?", hasadd);
+// let hasodd2 = numbers2.some((num) => num % 2 !== 0);
+// console.log("has at least one odd numbers?", hasodd2);
